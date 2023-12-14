@@ -29,6 +29,36 @@
 	padding-left: 0px !important;
 }
 
+.page-civicrm-contact-view:not([class*="page-civicrm-contact-view-"]) #crm-container div.crm-summary-contactname-block {
+	padding-top: 0px !important;
+}
+
+.page-civicrm-contact-view:not([class*="page-civicrm-contact-view-"]) #crm-container #crm-contactname-content .crm-summary-display_name {
+	padding: 20px 0 !important;
+}
+
+.page-civicrm-contact-view:not([class*="page-civicrm-contact-view-"]) #crm-container .crm-summary-contactname-block {
+	padding: 10px 0 !important;
+}
+
+.page-civicrm-contact-view:not([class*="page-civicrm-contact-view-"]) #crm-container #crm-contactname-content {
+	max-height: 80px !important;
+}
+
+/* civicrm.css | https://bucks.healthwatchcrm.co.uk/libraries/civicrm/core/css/civicrm.css?r=dJ2ynen_GB */
+
+div#crm-container form,
+div.crm-container form {
+	margin-bottom: 0 !important;
+}
+
+/* custom-civicrm.css | https://bucks.healthwatchcrm.co.uk/sites/default/civicrm_extensions/org.civicrm.shoreditch-1.0.0-beta.12/css/custom-civicrm.css?r=dJ2ynen_GB */
+
+.page-civicrm-contact-view:not([class*="page-civicrm-contact-view-"]) #crm-container #crm-contactname-content .crm-edit-help {
+	top: 17px !important;
+	margin-left: 5px;
+}
+
 
 /* Pre d10 */
 
