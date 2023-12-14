@@ -116,6 +116,39 @@ a.btn:focus {
 	font-weight: 600 !important;
 }
 
+/* custom-civicrm.css | https://bucks.healthwatchcrm.co.uk/sites/default/civicrm_extensions/org.civicrm.shoreditch-1.0.0-beta.12/css/custom-civicrm.css?r=dJ2ynen_GB */
+
+.crm-container .crm-form-xbutton,
+.crm-container .crm-inline-button,
+.crm-container .crm-submit-buttons {
+	padding: 0 5px 5px 5px !important;
+}
+
+.crm-container .crm-form-xbutton button,
+.crm-container .crm-inline-button button,
+.crm-container .crm-submit-buttons button {
+	margin-bottom: 10px !important;
+}
+
+.crm-container .crm-inline-button button {
+	display: inline-block !important;
+}
+
+.page-civicrm-contact-view:not([class*="page-civicrm-contact-view-"]) #crm-container .crm-inline-button,
+.page-civicrm-contact-view:not([class*="page-civicrm-contact-view-"]) #crm-container .crm-submit-buttons {
+	height: auto !important;
+}
+
+/* civicrm.css | https://bucks.healthwatchcrm.co.uk/libraries/civicrm/core/css/civicrm.css?r=dJ2ynen_GB */
+
+.crm-container a.button,
+.crm-container a.button:link,
+.crm-container a.button:visited,
+.crm-container .ui-dialog-buttonset .ui-button,
+.crm-container .crm-button {
+	float: none !important;
+}
+
 
 /* Pre d10 */
 
