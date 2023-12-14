@@ -99,6 +99,23 @@ div.crm-container form {
 	padding: 0px !important;
 }
 
+/* css_ra3UM2mD4Ock-yArSMzRC5DnsGhkI-soZ8MM2pEbLKA.css | https://bucks.healthwatchcrm.co.uk/sites/bucks.healthwatchcrm.co.uk/files/css/css_ra3UM2mD4Ock-yArSMzRC5DnsGhkI-soZ8MM2pEbLKA.css */
+
+.main-content .region p>a:hover,
+.main-content .region p>a:focus,
+.main-content .region li a:hover,
+.main-content .region li a:focus {
+	font-weight: 600 !important;
+	text-decoration: none !important;
+}
+
+/* css_ra3UM2mD4Ock-yArSMzRC5DnsGhkI-soZ8MM2pEbLKA.css | https://bucks.healthwatchcrm.co.uk/sites/bucks.healthwatchcrm.co.uk/files/css/css_ra3UM2mD4Ock-yArSMzRC5DnsGhkI-soZ8MM2pEbLKA.css */
+
+a.btn:hover,
+a.btn:focus {
+	font-weight: 600 !important;
+}
+
 
 /* Pre d10 */
 
