@@ -1,5 +1,9 @@
 /* d10 and later */
 
+.path-admin #block-feedbackandsignpostingdatacollectionwizard-2 {
+	display: none;
+}
+
 
 
 /* Pre d10 */
