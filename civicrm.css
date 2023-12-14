@@ -149,6 +149,14 @@ a.btn:focus {
 	float: none !important;
 }
 
+/* custom-civicrm.css | https://bucks.healthwatchcrm.co.uk/sites/default/civicrm_extensions/org.civicrm.shoreditch-1.0.0-beta.12/css/custom-civicrm.css?r=dJ2ynen_GB */
+
+.crm-container input[type="checkbox"]+label[for],
+.crm-container input[type="radio"]+label[for] {
+	font-weight: normal;
+	font-size: 13px !important;
+}
+
 
 /* Pre d10 */
 
