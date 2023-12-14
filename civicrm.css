@@ -12,6 +12,23 @@
 	font-size: 1.8rem !important;
 }
 
+.breadcrumb {
+	line-height: 100% !important;
+}
+
+.breadcrumb :first-child {
+	margin-left: 0;
+}
+
+.breadcrumb li {
+	margin-bottom: 0;
+	margin-left: 0.8rem;
+}
+
+.breadcrumb > li + li::before {
+	padding-left: 0px !important;
+}
+
 
 /* Pre d10 */
 
