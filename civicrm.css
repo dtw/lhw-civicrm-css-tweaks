@@ -82,6 +82,23 @@ div.crm-container form {
 	font-size: 13px !important;
 }
 
+.crm-container #contact-summary-relationship-tab.view-content .crm-datatable-pager-top,
+.crm-container #contact-summary-relationship-tab.view-content .crm-datatable-pager-bottom {
+	height: 50px !important;
+}
+
+/* Inline #18 | https://bucks.healthwatchcrm.co.uk/civicrm/contact/view?reset=1&cid=5900&selectedChild=activity */
+
+.crm-info-panel tr td label {
+	font-size: 13px;
+}
+
+/* civicrm.css | https://bucks.healthwatchcrm.co.uk/libraries/civicrm/core/css/civicrm.css?r=dJ2ynen_GB */
+
+.crm-info-panel td {
+	padding: 0px !important;
+}
+
 
 /* Pre d10 */
 
