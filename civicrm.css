@@ -69,6 +69,19 @@ div.crm-container form {
 	width: 50%;
 }
 
+/* civicrm.css | https://bucks.healthwatchcrm.co.uk/libraries/civicrm/core/css/civicrm.css?r=dJ2ynen_GB */
+
+.crm-container .status {
+	font-size: 0.8rem !important;
+}
+
+/* custom-civicrm.css | https://bucks.healthwatchcrm.co.uk/sites/default/civicrm_extensions/org.civicrm.shoreditch-1.0.0-beta.12/css/custom-civicrm.css?r=dJ2ynen_GB */
+
+.crm-datatable-pager-top label,
+.crm-datatable-pager-bottom label{
+	font-size: 13px !important;
+}
+
 
 /* Pre d10 */
 
