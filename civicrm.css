@@ -65,6 +65,10 @@ div.crm-container form {
 	padding-top: 0em !important;
 }
 
+#Tag tr td:first-child {
+	width: 50%;
+}
+
 
 /* Pre d10 */
 
