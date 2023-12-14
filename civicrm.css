@@ -39,10 +39,6 @@
 	line-height: 25px;
 }
 
-.webform-component-fieldset.webform-component--anonymous-details-of-person-who-received-the-care-field-set.form-wrapper {
-	display: none !important;
-}
-
 .form-item.webform-component.webform-component-checkboxes.webform-component--personal-views-layout--civicrm-1-activity-1-cg33-custom-323,
 .form-item.webform-component.webform-component-select.webform-component--civicrm-1-activity-1-cg33-custom-202,
 .form-item.webform-component.webform-component-radios.webform-component--personal-views-field-set--personal-views-column-layout-box--civicrm-1-activity-1-cg38-custom-1010,
@@ -166,8 +162,4 @@
 
 .form-text {
 	color: black !important;
-}
-
-.fieldset-wrapper label {
-	font-weight: bold !important;
 }
