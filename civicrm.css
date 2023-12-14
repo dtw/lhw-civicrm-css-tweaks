@@ -4,6 +4,9 @@
 	display: none;
 }
 
+#edit-anonymous-details-of-person-who-received-the-care-fieldset {
+	display: none !important;
+}
 
 
 /* Pre d10 */
