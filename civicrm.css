@@ -9,7 +9,7 @@
 }
 
 .page-header {
-	font-size: 1.8rem !important;
+	font-size: 1.6rem !important;
 }
 
 .breadcrumb {
@@ -144,7 +144,7 @@ a.btn:focus {
 .crm-container a.button,
 .crm-container a.button:link,
 .crm-container a.button:visited,
-.crm-container .ui-dialog-buttonset .ui-button,
+/* .crm-container .ui-dialog-buttonset .ui-button, */
 .crm-container .crm-button {
 	float: none !important;
 }
@@ -163,7 +163,48 @@ a.btn:focus {
 	padding-top: 0 !important;
 }
 
-/* Pre d10 */
+/* custom-civicrm.css | https://bucks.healthwatchcrm.co.uk/sites/default/civicrm_extensions/org.civicrm.shoreditch-1.0.0-beta.12/css/custom-civicrm.css?r=dJ2ynen_GB */
+
+.crm-container button.crm-form-xbutton.cancel,
+.crm-container button.crm-form-submit.cancel {
+	background: #fff !important;
+	border: 1px solid #4d4d69 !important;
+}
+
+.crm-container button.crm-form-xbutton.cancel:hover,
+.crm-container button.crm-form-xbutton.cancel:focus,
+.crm-container button.crm-form-xbutton.cancel:active,
+.crm-container button.crm-form-submit.cancel:hover,
+.crm-container button.crm-form-submit.cancel:focus,
+.crm-container button.crm-form-submit.cancel:active {
+	background: #3e3e54 !important;
+}
+
+/* custom-civicrm.css | https://bucks.healthwatchcrm.co.uk/sites/default/civicrm_extensions/org.civicrm.shoreditch-1.0.0-beta.12/css/custom-civicrm.css?r=dJ2ynen_GB */
+
+.crm-container .crm-button-type-refresh .crm-i,
+.crm-container .crm-submit-buttons>.crm-button .crm-i {
+	color: inherit !important;
+}
+
+/* style.css | https://bucks.healthwatchcrm.co.uk/themes/custom/bootstrap_hwcrm_2023/css/style.css?s5nwwx */
+
+a:focus.logo {
+	outline: none !important;
+}
+
+#block-feedbackandsignpostingdatacollectionwizard h2 {
+	display: none;
+}
+
+/*
+* 
+*
+* Pre d10
+*
+*
+*
+*/
 
 .webform-previous.form-submit,
 .webform-submit.button-primary.form-submit,
