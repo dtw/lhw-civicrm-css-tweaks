@@ -197,6 +197,48 @@ a:focus.logo {
 	display: none;
 }
 
+.view-value {
+	padding-top: 0px !important;
+}
+
+/* Inline #71 | https://bucks.healthwatchcrm.co.uk/feedback-and-signposting-data-collection-wizard */
+
+.form-textarea-wrapper textarea {
+	font-size: 0.8rem;
+	font-weight: normal;
+	line-height: 1.2rem;
+}
+
+/* civicrm.css | https://bucks.healthwatchcrm.co.uk/libraries/civicrm/core/css/civicrm.css?r=SEoZken_GB */
+
+#crm-container,
+.crm-container {
+	line-height: 135%;
+}
+
+/* css_8JkLnWV6c9AqhM5DPuNtJNtTfz__R-Rqkay6m7Zggbk.css | https://bucks.healthwatchcrm.co.uk/sites/bucks.healthwatchcrm.co.uk/files/css/css_8JkLnWV6c9AqhM5DPuNtJNtTfz__R-Rqkay6m7Zggbk.css?delta=3&language=en&theme=bootstrap_hwcrm_2023&include=eJxlikEKgDAMwD407ZNGN6sUN1u6OvH3ehEFbyFJO5tThYSNQhYjmGxXLCNm505D4W0NB6VZrMYk4s0NFX4mvE1FpZN9jIsU5_vhJSorwQMXKDwxmw */
+
+.row>*,
+.main-content .region>*,
+.view.grid-content .view-content>* {
+	font-size: 1rem;
+}
+
+.main-content .region .block,
+.main-content .region>*,
+.main-content nav,
+.region .grid,
+.region article,
+.region .views-element-container {
+	font-size: 1rem;
+}
+
+/* Inline #16 | https://bucks.healthwatchcrm.co.uk/civicrm/contact/view?action=browse&reset=1&cid=128&selectedChild=custom_715 */
+
+.crm-contact-actions-list-inner li a {
+	font-size: 0.8rem !important;
+}
+
 /*
 * 
 *
