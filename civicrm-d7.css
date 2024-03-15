@@ -130,6 +130,19 @@
 	border-radius: 3px;
 }
 
+/* Wizard Webform - Case Admin */
+
+/* Inline #14 | https://bucks.healthwatchcrm.co.uk/feedback-and-signposting-data-collection-wizard */
+
+.form-item.webform-component.webform-component-file.webform-component--civicrm-1-case-1-cg73-custom-359,
+.form-item.webform-component.webform-component-file.webform-component--civicrm-1-case-1-cg73-custom-361 {
+	display: none;
+}
+
+.webform-component-fieldset.webform-component--civicrm-8-activity-1-fieldset-fieldset.form-wrapper {
+	display: none;
+}
+
 /* Volunteer Update webform */
 
 /* Inline #6 | https://bucks.healthwatchcrm.co.uk/volunteer-update?cid1=2000&cs=78b207d7380f73f26ec900a66e5211a9_1680785657_168 */
