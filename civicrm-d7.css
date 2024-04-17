@@ -50,10 +50,19 @@
 .form-item.webform-component.webform-component-radios.webform-component--person-who-received-the-care.webform-container-inline,
 .form-item.webform-component.webform-component-select.webform-component--2columns-org1-2--civicrm-1-activity-1-cg69-custom-338,
 .form-item.webform-component.webform-component-checkboxes.webform-component--2columns-org1-2--civicrm-1-activity-1-cg33-custom-160,
-.form-item.webform-component.webform-component-select.webform-component--2columns-org1-3--civicrm-1-activity-1-cg15-custom-1023 {
+.form-item.webform-component.webform-component-select.webform-component--2columns-org1-3--civicrm-1-activity-1-cg15-custom-1023,
+.form-item.webform-component.webform-component-date.webform-component--date-layout-box--civicrm-1-activity-1-activity-activity-date-time {
 	border: 1px solid #D83D8D;
 	padding: 0 0px 10px 10px;
 	border-radius: 3px;
+}
+
+#edit-submitted-details-field-set-details-layout-box-civicrm-1-case-1-cg200-custom-1026 {
+  border: 1px solid #D83D8D;
+}
+
+label[for="edit-submitted-details-field-set-civicrm-1-activity-1-activity-subject"]:after {
+  content: ' / Subject';
 }
 
 .form-item.webform-component.webform-component-radios.webform-component--person-who-received-the-care.webform-container-inline {
@@ -124,7 +133,9 @@
 .form-item.webform-component.webform-component-select.webform-component--civicrm-2-activity-1-fieldset-fieldset--civicrm-5-contact-1-fieldset-fieldset--2columns-org2-3--civicrm-2-activity-1-cg15-custom-1023,
 .form-item.webform-component.webform-component-select.webform-component--civicrm-3-activity-1-fieldset-fieldset--select-organisation-involved-3--2columns-org3-2--civicrm-3-activity-1-cg69-custom-338,
 .form-item.webform-component.webform-component-checkboxes.webform-component--civicrm-3-activity-1-fieldset-fieldset--select-organisation-involved-3--2columns-org3-2--civicrm-3-activity-1-cg33-custom-160,
-.form-item.webform-component.webform-component-select.webform-component--civicrm-3-activity-1-fieldset-fieldset--select-organisation-involved-3--2columns-org3-3--civicrm-3-activity-1-cg15-custom-1023 {
+.form-item.webform-component.webform-component-select.webform-component--civicrm-3-activity-1-fieldset-fieldset--select-organisation-involved-3--2columns-org3-3--civicrm-3-activity-1-cg15-custom-1023,
+.form-item.webform-component.webform-component-checkboxes.webform-component--civicrm-1-activity-1-cg51-custom-1021,
+.form-item.webform-component.webform-component-checkboxes.webform-component--civicrm-1-activity-1-cg51-custom-353 {
 	border: 1px solid #D83D8D;
 	padding: 0 0px 10px 10px;
 	border-radius: 3px;
@@ -167,7 +178,11 @@
   margin: 2rem auto;
 }
 
-.webform-component-checkboxes .form-checkboxes {
+#civicrm_1_contact_1_contact_preferred_communication_method .webform-component-checkboxes .form-checkboxes,
+#civicrm_1_contact_1_cg2_custom_2018 .webform-component-checkboxes .form-checkboxes,
+#civicrm_1_contact_1_cg2_custom_2019 .webform-component-checkboxes .form-checkboxes,
+#civicrm_1_contact_1_cg2_custom_2020 .webform-component-checkboxes .form-checkboxes
+{
   -moz-column-count: 1 !important;
   -webkit-column-count: 1 !important;
   column-count: 1 !important;
@@ -183,4 +198,11 @@
 
 .fieldset-wrapper label {
 	font-weight: bold !important;
+}
+
+/* Hide rubbish themes and processes */
+
+.form-item.form-type-checkbox.form-item-submitted-civicrm-1-activity-1-cg51-custom-353-116,
+.form-item.form-type-checkbox.form-item-submitted-civicrm-1-activity-1-cg51-custom-353-17 {
+  display: none;
 }
