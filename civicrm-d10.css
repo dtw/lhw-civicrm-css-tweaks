@@ -252,3 +252,21 @@ a:focus.logo {
 .form-item.js-form-item.form-type-managed-file.js-form-type-managed-file.form-item-civicrm-1-case-1-cg73-custom-361.js-form-item-civicrm-1-case-1-cg73-custom-361.form-group {
   display: none;
 }
+
+/* Inline #71 | https://bucks.healthwatchcrm.co.uk/feedback-and-signposting-data-collection-wizard */
+
+#edit-anonymous-details-of-person-who-received-the-care-fieldset {
+  display: none;
+}
+
+.form-group h1 {
+  margin-top: 0;
+}
+
+#edit-2columns-org1-4,
+#edit-2columns-org2-4,
+#edit-2columns-org3-4,
+#edit-2columns-org4-4,
+#edit-2columns-org5-4 {
+  display: none;
+}
