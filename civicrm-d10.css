@@ -413,3 +413,17 @@ a:focus.logo {
 .form-text {
 	color: black !important;
 }
+
+/* Inline #24 | https://bucks.healthwatchcrm.co.uk/feedback-and-signposting-data-collection-wizard */
+
+.form-item.js-form-item.form-type-managed-file.js-form-type-managed-file.form-item-civicrm-1-case-1-cg73-custom-358.js-form-item-civicrm-1-case-1-cg73-custom-358.form-group {
+  display: none;
+}
+
+.form-item.js-form-item.form-type-managed-file.js-form-type-managed-file.form-item-civicrm-1-case-1-cg73-custom-359.js-form-item-civicrm-1-case-1-cg73-custom-359.form-group {
+  display: none;
+}
+
+.form-item.js-form-item.form-type-managed-file.js-form-type-managed-file.form-item-civicrm-1-case-1-cg73-custom-361.js-form-item-civicrm-1-case-1-cg73-custom-361.form-group {
+  display: none;
+}
