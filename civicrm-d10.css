@@ -241,20 +241,17 @@ a:focus.logo {
 
 /* Inline #24 | https://bucks.healthwatchcrm.co.uk/feedback-and-signposting-data-collection-wizard */
 
-.form-item.js-form-item.form-type-managed-file.js-form-type-managed-file.form-item-civicrm-1-case-1-cg73-custom-358.js-form-item-civicrm-1-case-1-cg73-custom-358.form-group {
+.form-item.js-form-item.js-form-type-managed-file.form-item-civicrm-1-case-1-cg73-custom-359.js-form-item-civicrm-1-case-1-cg73-custom-359.form-group {
   display: none;
 }
 
-.form-item.js-form-item.form-type-managed-file.js-form-type-managed-file.form-item-civicrm-1-case-1-cg73-custom-359.js-form-item-civicrm-1-case-1-cg73-custom-359.form-group {
-  display: none;
-}
-
-.form-item.js-form-item.form-type-managed-file.js-form-type-managed-file.form-item-civicrm-1-case-1-cg73-custom-361.js-form-item-civicrm-1-case-1-cg73-custom-361.form-group {
+.form-item.js-form-item.js-form-type-managed-file.form-item-civicrm-1-case-1-cg73-custom-361.js-form-item-civicrm-1-case-1-cg73-custom-361.form-group {
   display: none;
 }
 
 /* Inline #71 | https://bucks.healthwatchcrm.co.uk/feedback-and-signposting-data-collection-wizard */
 
+/* hide demograohic rubbish */
 #edit-anonymous-details-of-person-who-received-the-care-fieldset {
   display: none;
 }
@@ -263,10 +260,112 @@ a:focus.logo {
   margin-top: 0;
 }
 
+/* hide system wide themes */
 #edit-2columns-org1-4,
 #edit-2columns-org2-4,
 #edit-2columns-org3-4,
 #edit-2columns-org4-4,
 #edit-2columns-org5-4 {
   display: none;
+}
+
+/* Inline #72 | https://bucks.healthwatchcrm.co.uk/feedback-and-signposting-data-collection-wizard
+
+Hide outcome section
+
+*/
+
+#edit-outcome-markup {
+  display: none;
+}
+
+.form-item.js-form-item.js-form-type-select.form-item-civicrm-9-activity-1-activity-activity-type-id.js-form-item-civicrm-9-activity-1-activity-activity-type-id.form-group {
+  display: none;
+}
+
+.form-item.js-form-item.js-form-type-textarea.form-item-civicrm-1-activity-1-cg33-custom-252.js-form-item-civicrm-1-activity-1-cg33-custom-252.form-group {
+  display: none;
+}
+
+.form-item.js-form-item.js-form-type-select.form-item-civicrm-1-activity-1-cg33-custom-1022.js-form-item-civicrm-1-activity-1-cg33-custom-1022.form-group {
+  display: none;
+}
+
+/* Inline #72 | https://bucks.healthwatchcrm.co.uk/feedback-and-signposting-data-collection-wizard */
+
+/* required fields */
+
+/* Page 1 */
+#edit-civicrm-1-activity-1-activity-activity-date-time-date,
+#edit-civicrm-1-activity-1-activity-subject,
+#edit-civicrm-1-case-1-cg200-custom-1026-value {
+  border: 1px solid #a81563;
+}
+
+#edit-civicrm-1-activity-1-cg33-custom-323--wrapper,
+#edit-civicrm-1-activity-1-cg33-custom-202--wrapper,
+#edit-civicrm-1-activity-1-cg38-custom-1010--wrapper,
+#edit-civicrm-1-activity-1-cg38-custom-1011--wrapper,
+#edit-person-who-received-the-care--wrapper,
+
+/* Page 2 */
+.form-item.js-form-item.js-form-type-textfield.form-item-civicrm-4-contact-1-contact-existing.js-form-item-civicrm-4-contact-1-contact-existing.form-group,
+.form-item.js-form-item.js-form-type-textfield.form-item-civicrm-5-contact-1-contact-existing.js-form-item-civicrm-5-contact-1-contact-existing.form-group,
+.form-item.js-form-item.js-form-type-textfield.form-item-civicrm-6-contact-1-contact-existing.js-form-item-civicrm-6-contact-1-contact-existing.form-group,
+.form-item.js-form-item.js-form-type-textfield.form-item-civicrm-7-contact-1-contact-existing.js-form-item-civicrm-6-contact-1-contact-existing.form-group,
+.form-item.js-form-item.js-form-type-textfield.form-item-civicrm-8-contact-1-contact-existing.js-form-item-civicrm-6-contact-1-contact-existing.form-group,
+#edit-civicrm-1-activity-1-cg33-custom-160--wrapper,
+#edit-civicrm-2-activity-1-cg33-custom-160--wrapper,
+#edit-civicrm-3-activity-1-cg33-custom-160--wrapper,
+#edit-civicrm-4-activity-1-cg33-custom-160--wrapper,
+#edit-civicrm-5-activity-1-cg33-custom-160--wrapper,
+.form-item.js-form-item.js-form-type-select.form-item-civicrm-1-activity-1-cg69-custom-338.js-form-item-civicrm-1-activity-1-cg69-custom-338.form-group,
+.form-item.js-form-item.js-form-type-select.form-item-civicrm-2-activity-1-cg69-custom-338.js-form-item-civicrm-2-activity-1-cg69-custom-338.form-group,
+.form-item.js-form-item.js-form-type-select.form-item-civicrm-3-activity-1-cg69-custom-338.js-form-item-civicrm-3-activity-1-cg69-custom-338.form-group,
+.form-item.js-form-item.js-form-type-select.form-item-civicrm-4-activity-1-cg69-custom-338.js-form-item-civicrm-4-activity-1-cg69-custom-338.form-group,
+.form-item.js-form-item.js-form-type-select.form-item-civicrm-5-activity-1-cg69-custom-338.js-form-item-civicrm-5-activity-1-cg69-custom-338.form-group,
+.form-item.js-form-item.js-form-type-select.form-item-civicrm-1-activity-1-cg15-custom-1023.js-form-item-civicrm-1-activity-1-cg15-custom-1023.form-group,
+.form-item.js-form-item.js-form-type-select.form-item-civicrm-2-activity-1-cg15-custom-1023.js-form-item-civicrm-2-activity-1-cg15-custom-1023.form-group,
+.form-item.js-form-item.js-form-type-select.form-item-civicrm-3-activity-1-cg15-custom-1023.js-form-item-civicrm-3-activity-1-cg15-custom-1023.form-group,
+.form-item.js-form-item.js-form-type-select.form-item-civicrm-4-activity-1-cg15-custom-1023.js-form-item-civicrm-4-activity-1-cg15-custom-1023.form-group,
+.form-item.js-form-item.js-form-type-select.form-item-civicrm-5-activity-1-cg15-custom-1023.js-form-item-civicrm-5-activity-1-cg15-custom-1023.form-group,
+#edit-civicrm-1-activity-1-cg51-custom-1021--wrapper,
+#edit-civicrm-2-activity-1-cg51-custom-1021--wrapper,
+#edit-civicrm-3-activity-1-cg51-custom-1021--wrapper,
+#edit-civicrm-4-activity-1-cg51-custom-1021--wrapper,
+#edit-civicrm-5-activity-1-cg51-custom-1021--wrapper,
+#edit-civicrm-1-activity-1-cg51-custom-353--wrapper,
+#edit-civicrm-2-activity-1-cg51-custom-353--wrapper,
+#edit-civicrm-3-activity-1-cg51-custom-353--wrapper,
+#edit-civicrm-4-activity-1-cg51-custom-353--wrapper,
+#edit-civicrm-5-activity-1-cg51-custom-353--wrapper {
+  border: 1px solid #a81563;
+  padding: 10px;
+}
+
+label[for="edit-civicrm-1-activity-1-activity-subject"]:after {
+  content: ' / Subject';
+}
+
+.form-item.js-form-item.js-form-type-checkbox.form-item-civicrm-1-activity-1-cg33-custom-160-view.js-form-item-civicrm-1-activity-1-cg33-custom-160-view.checkbox {
+  display: none;
+}
+
+td {
+  height: fit-content !important;
+}
+
+#crm-phone-content::before {
+  content: "Remember to add the country code to Mobile numbers (+44)";
+  padding: 0rem 0.5rem;
+  padding-tp: ;
+  padding-top: ;
+  margin: ;
+  border: 1px solid var(--color-lightninggreen);
+  line-height: 1.5rem;
+  font-size: 13px;
+  background: ;
+  margin: 1rem;
+  background-color: var(--color-lightninggreen);
+  color: white;
 }
